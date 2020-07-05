@@ -9,7 +9,7 @@ body {background:lightBlue;}
 .leg2 {position:absolute;left:51%;top:56%;background:orange;width:30px;height:20px;border-radius:50px 50px 20px 20px;}
 .eye1 {position:absolute;left:43%;top:25%;background:black;width:10px;height:10px;border-radius:50%;}
 .eye2 {position:absolute;left:51%;top:25%;background:black;width:10px;height:10px;border-radius:50%;}
-.nose1 {position:absolute;left:46.2%;top:29%;background:red;width:15px;height:15px;border-radius:2px 2px 10px 2px;transform:rotate(45deg);}
+.nose1 {position:absolute;left:46.2%;top:29%;background:orange;width:15px;height:15px;border-radius:2px 2px 10px 2px;transform:rotate(45deg);}
 @keyframes rotation {
  0% {transform:rotate(50deg);}
  50% {transform:rotate(70deg);}
