@@ -1,0 +1,21 @@
+{
+  "name": "zackxander.github.io",
+  "version": "1.0.0",
+  "description": "<h1>ZACK DID NOTHING LOLOLOLOLOLOLOLO IT WAS ALL ME ALL MEEEEEEEEEEEEEEEEEEEEE</h1>\r <h2>Welcome to a collab between zack and xander</h2>\r <h3>See our pages</h3>\r <a href=\"hello/\">hello</a>\r <a href=\"chicken/\">chicken</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackxander/zackxander.github.io.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/zackxander/zackxander.github.io/issues"
+  },
+  "homepage": "https://github.com/zackxander/zackxander.github.io#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
