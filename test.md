@@ -8,6 +8,8 @@ permalink: /test/
 <html>
 <head>
 <link rel="stylesheet" href="/chicken.css"/>
+<title>chicken
+</title>
 </head>
 <body>
 <div class="cont">
