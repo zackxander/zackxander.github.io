@@ -1,7 +1,7 @@
 ---
 layout: null
 title: "Test"
-permalink: /test/
+permalink: /chicken/
 ---
 
 
