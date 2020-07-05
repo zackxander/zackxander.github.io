@@ -4,7 +4,7 @@ title: "Test"
 permalink: /test/
 ---
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>Page Title</title>
