@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Howdy"
-permalink: /hello/
+permalink: /hello
 ---
 
 # Hello
