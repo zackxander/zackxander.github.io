@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Howdy"
-permalink: /hello/
+permalink: /fibbonacci/
 ---
 
 <button OnClick="outputfib()">fibbonacci</button>
