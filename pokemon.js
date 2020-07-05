@@ -197,9 +197,23 @@ const TABLE = {
   },
 };
 
-function effectiveness(attackerType, defenderType) {
+function getEffectiveness(attackerType, defenderType) {
   if (!TABLE[attackerType]) {
     throw new Error("No such attacker");
   }
-  return TABLE[attackerType][defenderType] || 1;
+  const val = TABLE[attackerType][defenderType];
+  return typeof val === "undefined" ? 1 : val;
 }
+
+const attacker = document.getElementById("attacker");
+const defender = document.getElementById("defender");
+const effectiveness = document.getElementById("effectiveness");
+
+function chicken() {
+  effectiveness.textContent = getEffectiveness(
+    attacker.options[attacker.selectedIndex].value,
+    defender.options[defender.selectedIndex].value
+  );
+}
+
+chicken();
