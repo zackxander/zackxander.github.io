@@ -8,7 +8,7 @@ permalink: /test/
 <html>
 <head>
 <title>Page Title</title>
-<link rel="stylesheet" href="chicken.css"></link>
+<link rel="stylesheet" href="chicken.css"/>
 </head>
 <body>
 <div class="cont">
