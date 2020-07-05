@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      red user input in a box
+    </title>
+  </head>
+  <body>
+    <input />
+    <p></p>
+    <script>
+      let inputElm = document.querySelector("input");
+
+      inputElm.addEventListener("input", onInput, false);
+      function onInput() {
+        let inputValue = inputElm.value;
+
+        document.querySelector("p").innerText = inputValue;
+      }
+    </script>
+  </body>
+</html>
