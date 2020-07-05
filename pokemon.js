@@ -17,6 +17,27 @@ const DARK = "DARK";
 const STEEL = "STEEL";
 const FAIRY = "FAIRY";
 
+const ALL_TYPES = [
+  NORMAL,
+  FIRE,
+  WATER,
+  GRASS,
+  ELECTRIC,
+  ICE,
+  FIGHTING,
+  POISON,
+  GROUND,
+  FLYING,
+  PSYCHIC,
+  BUG,
+  ROCK,
+  GHOST,
+  DRAGON,
+  DARK,
+  STEEL,
+  FAIRY,
+];
+
 const TABLE = {
   NORMAL: {
     ROCK: 0.5,
@@ -175,3 +196,10 @@ const TABLE = {
     STEEL: 0.5,
   },
 };
+
+function effectiveness(attackerType, defenderType) {
+  if (!TABLE[attackerType]) {
+    throw new Error("No such attacker");
+  }
+  return TABLE[attackerType][defenderType] || 1;
+}
