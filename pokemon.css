@@ -1,10 +1,15 @@
 body {
-  background: rgb(141, 138, 191);
-  background: linear-gradient(
-    90deg,
-    rgba(141, 138, 191, 1) 14%,
-    rgba(9, 9, 121, 1) 39%,
-    rgba(35, 145, 187, 1) 69%,
-    rgba(0, 212, 255, 1) 94%
+background-image: url('backgroundstuff.png');
   );
+}
+h1 {
+  color: blue;
+}
+select {
+  border-radius: 25px;
+  background: blue;
+  padding: 20px;
+  width: 400px;
+  height: 100px;
+  font-size: 32px;
 }
