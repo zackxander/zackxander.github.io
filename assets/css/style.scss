@@ -1,4 +1,16 @@
 ---
 ---
 
-@import 'jekyll-theme-hacker';
+@import "jekyll-theme-hacker";
+
+table {
+  border-collapse: collapse;
+}
+tr {
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+td {
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+}
